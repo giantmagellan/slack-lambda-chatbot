@@ -1,0 +1,12 @@
+{   
+    "B_TEXT": "<|begin_of_text|>",
+    "E_TEXT": "<|end_of_text|>",
+    "EOT_ID": "<|eot_id|>",
+    "HEADER_ID": "<|start_header_id|>{role}<|end_header_id|>\n",
+    "HEADER_ID_SYS": "HEADER_ID.format(role = 'system')",
+    "HEADER_ID_USER": "HEADER_ID.format(role = 'user')",
+    "HEADER_ID_ASSIST": "HEADER_ID.format(role = 'assistant')",
+    "system": "{B_TEXT}\n{HEADER_ID_SYS} You are a helpful, respectful, and honest assistant. Answer as helpfully as possible. Your answers should not include any harmful, unethical, racist, sexist, toxic, dangerous, or illegal content. Ensure your responses are socially unbiased and positive in nature.\nIf the request does not make sense, explain why instead of answering. If you do not know the answer to a request, do not share false information.\nYou will be provided with a set of instructions and a request.{EOT_ID}\n\n",
+    "user": "{HEADER_ID_USER} From the following request provide concise statements about the subject matter. Provide your response in 50 words or less. Do not provide additional information.{EOT_ID}\n\n",
+    "tips": "Provide a software or coding tip for a newly hired engineer or designer. Please be as technical as possible."
+}
