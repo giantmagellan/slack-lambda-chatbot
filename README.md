@@ -1,5 +1,5 @@
 
-# Welcome to your CDK Python project!
+# Welcome to the Slack Lambda Chatbot Project!
 
 This is a blank project for CDK development with Python.
 
